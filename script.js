@@ -47,10 +47,10 @@ window.addEventListener("scroll", () => {
 document.addEventListener("DOMContentLoaded", function () {
   // Text to be typed
   const textSequence = [
-    "Gabriel Kyeremateng",
-    "a Frontend Developer",
-    "a Web Designer",
-    "a Problem Solver",
+    " I am Gabriel Kyeremateng",
+    "I love to code",
+    "I love to solve complex problems",
+    "I am HIM",
   ];
 
   const typedTextElement = document.getElementById("typed-text");

@@ -13,3 +13,28 @@
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   transform: translateY(-5px);
 }
+
+/* Add this to your style.css file */
+
+.typing-cursor {
+  display: inline-block;
+  width: 3px;
+  height: 50px;
+  background-color: #fff;
+  margin-left: 5px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Ensure the header has proper spacing for the animation */
+#home .container {
+  height: auto;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
